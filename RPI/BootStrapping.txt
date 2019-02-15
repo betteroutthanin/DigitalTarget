@@ -1,0 +1,34 @@
+Burn key image
+* Burn image
+* Boot while connected to screen
+* Select (Australia, Australian English, Sydney)
+* Update password
+* Setup wifi
+* Check for updates - this takes a long time
+* Reboot . . . . 
+* Raspberry Pi Config
+** Enable (Camera, SSH, VNC)
+** Set resolution to "1920 x 1080 60hz"
+** Will require the reboot
+* Should be able to VNC in from here
+
+***************************************************************
+
+From re-image
+* Install Cython (takes a while)
+** pip3 install Cython
+
+* Other bits
+** sudo apt-get install libatlas-base-dev
+** sudo apt-get install at-spi2-core
+
+* pySerial
+** pip3 install pyserial
+
+* Install skimage (Min version = ???) - run it twice if it fails
+** mkdir skimage
+** cd skimage
+** wget https://github.com/scikit-image/scikit-image/archive/v0.14.1.tar.gz
+** tar -xzf v0.14.1.tar.gz 
+** cd scikit-image-0.14.1
+** pip3 install -e .

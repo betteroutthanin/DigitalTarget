@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ShotBot 4000</title>
+    <link rel="stylesheet" href="CSS/main.css">	
+    <script type='text/javascript' src='Scripts/all.js'></script>
+</head>
+    <body>
+        <script type="text/javascript">
+            setTimeout ( "doSomething()", 100 );
+
+            function doSomething ( )
+            {
+                    // (do something here)
+                    var lastIDDiv = document.getElementById('lastID');
+                    var lastIDVal = lastIDDiv.innerHTML.trim()
+                    RequestStatus('Ajax_CommandBuffer.pax?lastID=' + lastIDVal);
+                    setTimeout ( "doSomething()", 100 );
+            }
+        </script>
+        <div id="menu" class="menu">
+        Please hold
+        </div>
+        <div id="top" class="top">
+        Please hold
+        </div>
+        <div id="mid" class="mid">
+        Please hold
+        </div>
+        <div id="bot" class="bot">
+        Please hold
+        </div>
+        <div id="workingSpace" style="display: none;">
+        </div>
+        <div id="lastID" style="display: none;">0</div>
+    </body>
+</html>

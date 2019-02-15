@@ -1,0 +1,72 @@
+- TargetSystem:Log file reset
+-             :=============================
+-             :==== Booting Main System ====
+-             :=============================
+-             :Using skimage version 0.14.1
+- WebServerThread:Booting webserver thread
+- WebServer:Booted
+- WebSereverRequestHandler:*** Data/Website//index.html
+-                         :*** Data/Website//Scripts/all.js
+- DTCamera:Booted
+-         :------ Camera settings ------
+-         :resolution = 400x640
+-         :sensor_mode = 6
+-         :exposure_mode = auto
+-         :framerate = 15
+-         :exposure_speed = 24836
+-         :iso = 0
+-         :exposure_compensation = 0
+-         :awb_mode = auto
+-         :useVideoPort = True
+-         :rotation = 90
+-         :postRotation = 0
+-         :postResize = 1
+-         :vflip = False
+-         :hflip = True
+-         :-----------------------------
+- Buttons:Booted
+- ShotDetector:Booted
+- TargetDB:Booted
+- ADBridge:Booted
+- State_MainMenu:Booted
+- TargetDB:LearnTarget - started - Current
+-         :LearnTarget - Found outlines -> 2
+- TargetSystem:=============================
+-             :++++++++++++++++++++++++++++
+-             :++++ Entering Main Loop ++++
+- ADBridge:Data from AD = Boot:Yes
+-         :Detected AD Booting - will send set up commands
+-         :Data from AD = KV:185
+-         :Data from AD = TV:60
+- State_OpenShoot:Booted
+- ShotProcessor:ProcessShot - odd blob count found = 7
+- State_MainMenu:Booted
+- State_ShowLog:Booted
+- State_MainMenu:Booted
+- State_OpenShoot:Booted
+- ShotProcessor:ProcessShot - odd blob count found = 13
+-              :ProcessShot - odd blob count found = 25
+-              :ProcessShot - odd blob count found = 50
+-              :ProcessShot - odd blob count found = 12
+-              :ProcessShot - odd blob count found = 2
+- State_MainMenu:Booted
+- State_Settings:Booted
+- State_MainMenu:Booted
+- State_OpenShoot:Booted
+- ShotProcessor:ProcessShot - odd blob count found = 2
+-              :ProcessShot - odd blob count found = 15
+-              :ProcessShot - odd blob count found = 2
+-              :ProcessShot - odd blob count found = 2
+-              :ProcessShot - odd blob count found = 5
+-              :ProcessShot - odd blob count found = 2
+-              :ProcessShot - odd blob count found = 2
+-              :ProcessShot - odd blob count found = 41
+-              :ProcessShot - odd blob count found = 52
+-              :ProcessShot - odd blob count found = 18
+-              :ProcessShot - odd blob count found = 3
+- State_MainMenu:Booted
+- State_OpenShoot:Booted
+- ShotProcessor:ProcessShot - odd blob count found = 9
+-              :ProcessShot - odd blob count found = 8
+-              :ProcessShot - odd blob count found = 19
+- State_MainMenu:Booted

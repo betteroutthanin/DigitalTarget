@@ -1,0 +1,66 @@
+:root 
+{
+    --col_0: #000000;
+    --col_1: #002200;
+    --col_2: #003300;
+    --col_3: #005500;
+    --col_4: #007700;
+    --col_5: #009900;
+    --col_6: #00AA00;
+    --col_7: #00CC00;
+    --col_8: #00FF00;    
+}
+
+body
+{
+    background-color: var(--col_0);
+    color: var(--col_5);
+    margin: 15px;
+}
+
+.button {
+    background-color: var(--col_8);
+    border: none;
+    color: var(--col_2);
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 20%;
+    margin-bottom:10px;    
+}
+
+div
+{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.top
+{
+    font-size: 200%;    
+    color: var(--col_8);
+}
+
+.mid
+{
+    font-size: 120%;
+    
+    color: var(--col_8);
+}
+
+.bot
+{
+    font-size: 200%;    
+    color: var(--col_8);
+}
+
+.log
+{
+    font-size: 80%;    
+    color: var(--col_8);
+    text-align: left;
+}
